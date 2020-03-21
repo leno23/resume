@@ -377,3 +377,20 @@ a {
     display: none;
   }
 }
+
+.project{
+  .name{
+    font-weight: bold;
+  }
+}
+.project-summary{
+  display: flex;
+  margin: 10px 0;
+  .summary-title{
+    flex: 0 0 70px;
+    text-align: right;
+  }
+  .summary-content{
+    flex: 1;
+  }
+}
